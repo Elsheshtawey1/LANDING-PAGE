@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/df24a9c160.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="IMG/logo.png" alt="">
+            </div>
+            <nav id="nav"> <!-- أضفت هنا id للـ nav -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <i id="menu" class="fa-solid fa-bars"></i> <!-- بدون onclick -->
+        </header>
+
+        <div class="content">
+            <div class="left-sec">
+                <h1>iPhone 13 Pro Max</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, voluptates!</p>
+                <button>
+                    <a href="">All Products</a>
+                </button>
+            </div>
+            <div class="product">
+                <img class="image" src="IMG/4.png" alt="">
+            </div>
+        </div>
+
+        <footer>
+            <img onclick="changePhoneAndColor(this.src, '#000')" src="IMG/0.png" alt="">
+            <img onclick="changePhoneAndColor(this.src, '#247ec8')" src="IMG/1.png" alt="">
+            <img onclick="changePhoneAndColor(this.src, '#1e1e1e')" src="IMG/2.png" alt="">
+            <img onclick="changePhoneAndColor(this.src, '#c79b53')" src="IMG/3.png" alt="">
+            <img onclick="changePhoneAndColor(this.src, '#c82525')" src="IMG/4.png" alt="">
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
